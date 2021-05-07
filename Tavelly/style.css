@@ -1,0 +1,49 @@
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Pattaya", sans-serif;
+}
+.main-head {
+  background-color: rgb(28, 34, 87);
+  color: white;
+  font-size: 1.5rem;
+}
+.nav,
+ul,
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+  margin: auto;
+}
+.hero {
+  background: url(./image/city.jpg);
+  padding-bottom: 600px;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+}
+.hero h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding-top: 100px;
+  color: black;
+  min-width: none;
+}
+.hero h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  color: black;
+}
+.hero,
+button {
+  background-color: lightblue;
+  border: none;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+}
